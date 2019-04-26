@@ -4,6 +4,7 @@
 
 .full {
   background-color: #9e9e35;
+  font-family: 'Source Code Pro', monospace;
 }
 
 .header {
@@ -31,11 +32,17 @@
 }
 
 .body {
+  display:flex;
   padding: 8px;
 }
 
-#section {
-  padding-left: 10px;
-  padding-right: 10px;
+.description {
+  width: 300px;
+  font-weight: 400;
 }
+
+// #section {
+//   padding-left: 10px;
+//   padding-right: 10px;
+// }
 
