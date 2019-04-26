@@ -2,22 +2,41 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+.full {
+  background-color: #9e9e35;
+  width: full;
+}
+
 .header {
-	background: #9e9e35;
-	color: white;
-	text-align: center;
-	padding: 300px;
-
+  color: beige;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 70px;
+  width: 400px;
+  position: center;
 }
 
-
-#masthead {
-  position: relative;
-  color: white;
-  font-family: "source-code-pro", "Source Code Pro", "Courier";
-  font-size: 12px;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  padding-top: 4%;
-  z-index: 200;
+.content {
+  background-color: #9e7b35;
+  color: black;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  // text-align: left;
 }
+
+.content-text {
+  color: beige;
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+
+.body {
+  padding: 8px;
+}
+
+#section {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
