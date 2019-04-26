@@ -1,3 +1,23 @@
 // Place all the styles related to the homepage controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.header {
+	background: #9e9e35;
+	color: white;
+	text-align: center;
+	padding: 300px;
+
+}
+
+
+#masthead {
+  position: relative;
+  color: white;
+  font-family: "source-code-pro", "Source Code Pro", "Courier";
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding-top: 4%;
+  z-index: 200;
+}
