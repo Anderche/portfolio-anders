@@ -1,0 +1,118 @@
+/* line 1, app/assets/stylesheets/homepage.scss */
+h1, h2, h3 {
+  color: #111111;
+}
+
+/* line 5, app/assets/stylesheets/homepage.scss */
+p, h4, h5, h6 {
+  color: #595959;
+}
+
+/* line 9, app/assets/stylesheets/homepage.scss */
+body {
+  background-image: url("landscape.jpg");
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 17, app/assets/stylesheets/homepage.scss */
+section {
+  padding: 0 100px;
+  height: 90vh;
+}
+
+/* line 22, app/assets/stylesheets/homepage.scss */
+a:hover {
+  text-decoration: none;
+}
+
+/* line 26, app/assets/stylesheets/homepage.scss */
+.id {
+  border-radius: 50%;
+  opacity: .91;
+}
+
+/* line 31, app/assets/stylesheets/homepage.scss */
+.full {
+  position: relative;
+  max-width: 600px;
+  padding: 50px;
+  background: rgba(255, 255, 255, 0.5);
+  font-family: 'Source Code Pro', monospace;
+}
+
+/* line 39, app/assets/stylesheets/homepage.scss */
+.header {
+  color: black;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+/* line 47, app/assets/stylesheets/homepage.scss */
+.nav {
+  display: inline-block;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 70px;
+}
+
+/* line 54, app/assets/stylesheets/homepage.scss */
+.row-body {
+  display: inline-block;
+  margin: 0 auto;
+  margin-top: 70px;
+  padding: 8px;
+}
+
+/* line 61, app/assets/stylesheets/homepage.scss */
+.content {
+  color: black;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+/* line 68, app/assets/stylesheets/homepage.scss */
+.content-text {
+  color: black;
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+
+/* line 74, app/assets/stylesheets/homepage.scss */
+.row-cards {
+  width: auto;
+  display: inline-block;
+}
+
+/* line 79, app/assets/stylesheets/homepage.scss */
+#social {
+  margin-top: 40px;
+  color: black;
+  text-shadow: 1px 1px 1px #ccc;
+  font-size: 2em;
+}
+
+/* line 87, app/assets/stylesheets/homepage.scss */
+.fab, .fas {
+  color: #111111;
+}
+
+/* line 91, app/assets/stylesheets/homepage.scss */
+.fab:hover {
+  color: #7c7856;
+}
+
+/* line 95, app/assets/stylesheets/homepage.scss */
+.fas:hover {
+  color: #7c7856;
+}
+
+/* line 99, app/assets/stylesheets/homepage.scss */
+.description {
+  width: 300px;
+  font-weight: 400;
+}
