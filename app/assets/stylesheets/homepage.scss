@@ -1,3 +1,7 @@
+h1,h2,h3,h4,h5,h6 {
+  color: #111111;
+}
+
 
 body {
   background-image: url("landscape.jpg");
@@ -40,13 +44,14 @@ a:hover {
 .nav {
   display: inline-block;
   margin: 0 auto;
-  margin-bottom: 80px;
+  margin-top: 40px;
+  margin-bottom: 70px;
 }
 
 .row-body {
   display: inline-block;
   margin: 0 auto;
-  margin-top: 40px;
+  margin-top: 70px;
   padding: 8px;
 }
 
@@ -65,6 +70,26 @@ a:hover {
 
 .row-cards {
   // align-items: center;
+}
+
+#social {
+  margin-top: 40px;
+  color: black;
+  text-shadow: 1px 1px 1px #ccc;
+  font-size: 2em;
+  // color: #111111;
+}
+
+.fab,.fas {
+  color: #111111;
+}
+
+.fab:hover {
+  color: #7c7856;
+}
+
+.fas:hover {
+  color: #7c7856;
 }
 
 .description {
