@@ -18,20 +18,16 @@ section {
   height: 90vh
 }
 
-.box {
+.full {
   position:relative;
   max-width: 600px;
   padding: 50px;
   background: rgba(255,255,255,.5);
-}
-
-.full {
-  background-color: #9e9e35;
   font-family: 'Source Code Pro', monospace;
 }
 
 .header {
-  color: beige;
+  color: black;
   text-align: center;
   padding-top: 100px;
   padding-bottom: 70px;
@@ -46,7 +42,7 @@ section {
 }
 
 .content-text {
-  color: beige;
+  color: black;
   padding-top: 10px;
   padding-bottom: 50px;
 }
