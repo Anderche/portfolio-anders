@@ -2,6 +2,29 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+
+
+body {
+  background-image: url("landscape.jpg");
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+section {
+  padding: 0 100px;
+  height: 90vh
+}
+
+.box {
+  position:relative;
+  max-width: 600px;
+  padding: 50px;
+  background: rgba(255,255,255,.5);
+}
+
 .full {
   background-color: #9e9e35;
   font-family: 'Source Code Pro', monospace;
@@ -12,17 +35,14 @@
   text-align: center;
   padding-top: 100px;
   padding-bottom: 70px;
-  // width: 400px;
-  // position: center;
+
 }
 
 .content {
-  background-color: #9e7b35;
   color: black;
   text-align: center;
   padding-top: 40px;
   padding-bottom: 40px;
-  // text-align: left;
 }
 
 .content-text {
@@ -40,9 +60,4 @@
   width: 300px;
   font-weight: 400;
 }
-
-// #section {
-//   padding-left: 10px;
-//   padding-right: 10px;
-// }
 
