@@ -4,6 +4,7 @@ h1,h2,h3 {
 
 p,h4,h5,h6{
   color: #595959;
+  font-weight: 500;
 }
 
 body {
@@ -14,15 +15,6 @@ body {
   background-size: cover;
 }
 
-section {
-  padding: 0 100px;
-  height: 90vh
-}
-
-a:hover {
-  text-decoration: none;
-}
-
 .id {
   border-radius: 50%;
   opacity: .91;
@@ -31,16 +23,15 @@ a:hover {
 .full {
   position:relative;
   max-width: 600px;
-  padding: 50px;
+  padding: 10px;
   background: rgba(255,255,255,.5);
   font-family: 'Source Code Pro', monospace;
 }
 
 .header {
   color: black;
-  // max-width: 70vw;
   text-align: center;
-  padding-top: 30px;
+  padding-top: 10px;
   padding-bottom: 30px;
 }
 
@@ -55,13 +46,13 @@ a:hover {
   display: inline-block;
   margin: 0 auto;
   margin-top: 70px;
-  padding: 8px;
+  // padding: 8px;
 }
 
 .content {
   color: black;
   text-align: center;
-  padding-top: 40px;
+  // padding-top: 40px;
   padding-bottom: 40px;
 }
 
@@ -91,7 +82,7 @@ a:hover {
 }
 
 .fab,.fas {
-  color: #111111;
+  color: #707070;
 }
 
 .fab:hover {
@@ -104,6 +95,6 @@ a:hover {
 
 .description {
   width: 300px;
-  font-weight: 400;
+  font-weight: 300;
 }
 
