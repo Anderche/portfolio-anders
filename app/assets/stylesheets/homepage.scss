@@ -12,6 +12,10 @@ section {
   height: 90vh
 }
 
+a:hover {
+  text-decoration: none;
+}
+
 .id {
   border-radius: 50%;
   opacity: .91;
@@ -27,14 +31,23 @@ section {
 
 .header {
   color: black;
+  // max-width: 70vw;
   text-align: center;
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
 .nav {
-  width: 70vw;
+  display: inline-block;
+  margin: 0 auto;
   margin-bottom: 80px;
+}
+
+.row-body {
+  display: inline-block;
+  margin: 0 auto;
+  margin-top: 40px;
+  padding: 8px;
 }
 
 .content {
@@ -45,16 +58,9 @@ section {
 }
 
 .content-text {
-  width: 70vw;
   color: black;
   padding-top: 10px;
   padding-bottom: 50px;
-}
-
-.row-body {
-  display:flex;
-  margin-top: 40px;
-  padding: 8px;
 }
 
 .row-cards {
