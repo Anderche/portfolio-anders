@@ -1,8 +1,10 @@
-// Place all the styles related to the homepage controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+h1,h2,h3 {
+  color: #111111;
+}
 
-
+p,h4,h5,h6{
+  color: #595959;
+}
 
 body {
   background-image: url("landscape.jpg");
@@ -12,10 +14,18 @@ body {
   background-size: cover;
 }
 
-
 section {
   padding: 0 100px;
   height: 90vh
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.id {
+  border-radius: 50%;
+  opacity: .91;
 }
 
 .full {
@@ -28,15 +38,25 @@ section {
 
 .header {
   color: black;
+  // max-width: 70vw;
   text-align: center;
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
-// .nav {
-//   width: 60vw;
-//   margin-bottom: 20px;
-// }
+.nav {
+  display: inline-block;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 70px;
+}
+
+.row-body {
+  display: inline-block;
+  margin: 0 auto;
+  margin-top: 70px;
+  padding: 8px;
+}
 
 .content {
   color: black;
@@ -51,13 +71,29 @@ section {
   padding-bottom: 50px;
 }
 
-.row-body {
-  display:flex;
-  padding: 8px;
+.row-cards { 
+  width: auto;
+  display: inline-block;    
 }
 
-.row-cards {
-  // align-items: center;
+#social {
+  margin-top: 40px;
+  color: black;
+  text-shadow: 1px 1px 1px #ccc;
+  font-size: 2em;
+  // color: #111111;
+}
+
+.fab,.fas {
+  color: #111111;
+}
+
+.fab:hover {
+  color: #7c7856;
+}
+
+.fas:hover {
+  color: #7c7856;
 }
 
 .description {
