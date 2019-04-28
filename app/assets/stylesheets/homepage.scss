@@ -7,6 +7,11 @@ p,h4,h5,h6{
   font-weight: 500;
 }
 
+// li {
+//   color: #7a7a7a;
+//   font-weight: 300;
+// }
+
 body {
   background-image: url("landscape.jpg");
   background-color: #cccccc;
@@ -71,6 +76,22 @@ body {
 .row-cards { 
   width: auto;
   display: inline-block;    
+}
+
+.responsible {
+  color: #7a7a7a;
+  font-weight: 300;
+  text-align: left;
+}
+
+ul {
+  color: #7a7a7a;
+  font-weight: 300;
+  text-align: left; 
+}
+
+.links {
+  color: #182660;
 }
 
 #social {
